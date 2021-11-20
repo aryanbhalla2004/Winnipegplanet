@@ -1,0 +1,109 @@
+/* social media icon START */
+
+.top-menu {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #086AD8;
+}
+
+.top-menu-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.top-menu-content > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.top-menu-content > ul > li {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.social-media-icons-top > ul{
+  display: flex;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.social-media-icons-top > ul > li{
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+
+/* social media icon END */
+
+
+/* header icon START */
+
+header{
+  display: flex;
+  justify-content: center !important;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 0 10px #cccccc;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header {
+  padding: 15px 0;
+}
+
+.menu-header {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-header > li {
+  padding: 0 20px;
+}
+
+.menu-header > li > a{
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  color: #434343;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu-header > li > a:hover{
+  color: #086AD8;
+}
+
+.phone-number-header{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.phone-number-header > i{
+  color: #086AD8;
+  font-size: 35px;
+}
+
+.phone-number-header > li > p{
+  color: #727272;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.line-number-header {
+  padding: 18px 0;
+  border-right: 1px solid rgb(211, 211, 211);
+  margin: 0 15px;
+}
