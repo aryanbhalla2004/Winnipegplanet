@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/homepage.css";
 const Homepage = () => {
   return (
@@ -8,10 +9,10 @@ const Homepage = () => {
             <h3>Information Technology Systems</h3>
             <h1>Creating a better and reliable <span className="bold-primary-color">IT solutions</span></h1>
             <p>Winnipeg Planet Computer & Technology is a IT Company having more than 20 years of experience in computer and IT.</p>
-            <a>Contact Us &nbsp; <i class="fas fa-arrow-circle-right"></i></a>
+            <Link to="">Contact Us &nbsp; <i className="fas fa-arrow-circle-right"></i></Link>
           </ul>
           <ul className="slider-image">
-            <img src="/3.png" width="500"/>
+            <img src="/3.png" width="500" alt="data"/>
           </ul>
         </div>
       </div>
@@ -19,9 +20,9 @@ const Homepage = () => {
         <div className="content-sizing about-home-content">
           <ul className="images-home-about-section">
             <div className="image-one">
-              <img src="/about1.jpg" width="430"/>
+              <img src="/about1.jpg" width="430" alt="about 1"/>
               <div className="absolute-box-image-about">
-                <img src="/about2.jpg" width="430"/>
+                <img src="/about2.jpg" width="430" alt="about 2"/>
                 <div className="experience-about-home-box">
                   <h1>20 Years of Experience</h1>
                 </div> 
@@ -143,7 +144,7 @@ const Homepage = () => {
                 </div>
               </li>
             </ul>
-            <a className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+            <Link to="" className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
           </ul>
         </div>
       </div>
@@ -155,7 +156,7 @@ const Homepage = () => {
               <h1>Custom IT Solutions for Your Business</h1>
               <p>Carried nothing on am warrant towards. Polite in of in oh needed itself silent course. Assistance travelling so especially do prosperous appearance mr no celebrated. Wanted easily in my called formed suffer. Songs hoped sense as taken ye mirth at. Believe fat how six drawing pursuit minutes far. Same do seen head am part it dear open to Whatever.</p>
               <div>
-                <a><i class="fas fa-arrow-right"></i></a>
+                <Link to=""><i className="fas fa-arrow-right"></i></Link>
                 <p>Read More</p>
               </div>
             </ul> 

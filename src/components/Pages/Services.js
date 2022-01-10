@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const Services = (props) => {
   useEffect(() => {
     props.pageName("Services")
-  }, []);
+  }, [props]);
 
   return (
     <>

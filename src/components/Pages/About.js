@@ -1,18 +1,19 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const About = (props) => {
   useEffect(() => {
     props.pageName("About Us")
-  }, []);
+  }, [props]);
 
   return (
     <div className="about-home">
     <div className="content-sizing about-home-content">
       <ul className="images-home-about-section">
         <div className="image-one">
-          <img src="/about1.jpg" width="430"/>
+          <img src="/about1.jpg" width="430" alt="about 1"/>
           <div className="absolute-box-image-about">
-            <img src="/about2.jpg" width="430"/>
+            <img src="/about2.jpg" width="430" alt="about 2"/>
             <div className="experience-about-home-box">
               <h1>20 Years of Experience</h1>
             </div> 
@@ -134,7 +135,7 @@ const About = (props) => {
             </div>
           </li>
         </ul>
-        <a className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+        <Link to="" className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
       </ul>
     </div>
   </div>

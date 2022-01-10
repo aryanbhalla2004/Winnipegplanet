@@ -6,17 +6,17 @@ const Header = () => {
       <div className="top-menu">
         <div className="content-sizing top-menu-content">
           <ul>
-            <li><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Winnipeg, MB</li>
+            <li><i className="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Winnipeg, MB</li>
             <div className="line"></div>
-            <li><i class="fas fa-envelope-open-text"></i>&nbsp;&nbsp;info@winnipegplanet.com</li>
+            <li><i className="fas fa-envelope-open-text"></i>&nbsp;&nbsp;info@winnipegplanet.com</li>
           </ul>
           <ul>
-            <li><i class="fas fa-clock"></i>&nbsp;&nbsp;Office Hours: 24/7</li>
+            <li><i className="fas fa-clock"></i>&nbsp;&nbsp;Office Hours: 24/7</li>
             <li className="social-media-icons-top">
               <ul>
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i className="fab fa-facebook-f"></i></li>
+                <li><i className="fab fa-twitter"></i></li>
+                <li><i className="fab fa-linkedin-in"></i></li>
               </ul>
             </li>
           </ul>
@@ -25,7 +25,7 @@ const Header = () => {
       <header>
         <div className="content-sizing header-content">
           <ul className="logo-header">
-            <img src="/logo.jpeg" width="125"/>
+            <img src="/logo.jpeg" width="125" alt="Logo"/>
           </ul>
           <ul className="menu-header">
             <li><Link to="/">HOME</Link></li>
@@ -34,7 +34,7 @@ const Header = () => {
             <li><Link to="/pages/contact-us">CONTACT US</Link></li>
           </ul>
           <ul className="phone-number-header">
-            <i class="fas fa-phone-alt"></i>
+            <i className="fas fa-phone-alt"></i>
             <div className="line-number-header"></div>
             <li>
               <p>Call us today!</p>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Switch, Route, Link, useHistory } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page from "./components/Page";
@@ -10,7 +10,6 @@ import Contact from "./components/Pages/Contact";
 import Hireus from "./components/Pages/Hireus";
 
 const App = () => {
-  const history = useHistory();
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState('About Us');
 
