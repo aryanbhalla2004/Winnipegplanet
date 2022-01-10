@@ -31,7 +31,6 @@ const Header = () => {
             <li><Link to="/">HOME</Link></li>
             <li><Link to="/pages/about-us">ABOUT US</Link></li>
             <li><Link to="/pages/services">SERVICES</Link></li>
-            <li><Link to="/pages/hire-us-as-contractor">HIRE US AS CONTRACTOR</Link></li>
             <li><Link to="/pages/contact-us">CONTACT US</Link></li>
           </ul>
           <ul className="phone-number-header">
