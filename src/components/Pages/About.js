@@ -1,12 +1,18 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import Helmet from "react-helmet";
 const About = (props) => {
   useEffect(() => {
     props.pageName("About Us")
   }, [props]);
 
   return (
+    <>
+    <Helmet>
+      <title>About Us | Winnipeg Planet Computer Repair</title>
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
+      <meta name="description" content="Here is a precise description of my awesome webpage."></meta>
+    </Helmet>
     <div className="about-home">
     <div className="content-sizing about-home-content">
       <ul className="images-home-about-section">
@@ -139,6 +145,7 @@ const About = (props) => {
       </ul>
     </div>
   </div>
+  </>
   )
 }
 

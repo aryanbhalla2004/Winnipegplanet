@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
+import Helmet from "react-helmet";
 import "../styles/homepage.css";
 const Homepage = () => {
   return (
     <>
+    <Helmet>
+      <title>Home | Winnipeg Planet Computer Repair</title>
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
+      <meta name="description" content="Here is a precise description of my awesome webpage."></meta>
+    </Helmet>
       <div className="slider-below-header">
         <div className="content-sizing slider-below-header-content">
           <ul className="slider-info-left">
             <h3>Information Technology Systems</h3>
             <h1>Creating a better and reliable <span className="bold-primary-color">IT solutions</span></h1>
-            <p>Winnipeg Planet Computer & Technology is a IT Company having more than 20 years of experience in computer and IT.</p>
+            <p>Winnipeg Planet Computer & Technology is a IT Company that has more then 20 years of experience in proving services to both small and commercial sized business</p>
             <Link to="">Contact Us &nbsp; <i className="fas fa-arrow-circle-right"></i></Link>
           </ul>
           <ul className="slider-image">
@@ -30,8 +36,8 @@ const Homepage = () => {
             </div>
           </ul>
           <ul className="text-home-about-section">
-            <h1>We Help IT Companies Scale Engineering Capacity</h1>
-            <p>Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight sang lose.</p>
+            <h1>We Help IT Companies & Individual Find Solutions</h1>
+            <p>We won't stop until all of your IT concerns are resolved. We make your life easy by providing you with rapid service from qualified expert techs through phone or the internet.</p>
             <ul>
               <li>
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="75.000000pt" height="70.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
@@ -84,8 +90,8 @@ const Homepage = () => {
                   </g>
                 </svg>
                 <div>
-                  <h3>Certified Company</h3>
-                  <p>Assurance yet bed was improving furniture man. Distrusts delighted she listening.</p>
+                  <h3>LIFT BBB Certification</h3>
+                  <p>Our company is accredited by the Better Business Bureau (BBB), indicating that we are dependable and trustworthy.</p>
                 </div>
               </li>
               <li>
@@ -139,8 +145,8 @@ const Homepage = () => {
                   </g>
                 </svg>
                 <div>
-                  <h3>Certified Company</h3>
-                  <p>Assurance yet bed was improving furniture man. Distrusts delighted she listening.</p>
+                  <h3>Dell Certified Technicians</h3>
+                  <p>When it comes to handling your equipment with care, our technicians are Dell certified professionals with plenty of expertise.</p>
                 </div>
               </li>
             </ul>
@@ -163,22 +169,22 @@ const Homepage = () => {
             <ul className="service-holder-home-page">
               <ul className="non-offset-service-box">
                 <li>
-                  <h2>IT Consultancy</h2>
-                  <p>Astonished set expression solicitude way admiration</p>
+                  <h2>Quick response</h2>
+                  <p>Our typical turnaround time is one to two days, which is far faster than our rivals.</p>
                 </li>
                 <li>
-                <h2>IT Consultancy</h2>
-                  <p>Astonished set expression solicitude way admiration</p>
+                <h2>Experienced</h2>
+                  <p>Our technicians are well experienced and certified.</p>
                 </li>
               </ul>
               <ul className="offset-service-box">
                 <li>
-                <h2>IT Consultancy</h2>
-                  <p>Astonished set expression solicitude way admiration</p>
+                  <h2>100% Satisfaction Guarantee</h2>
+                  <p>We will go above and above to ensure your satisfaction.</p>
                 </li>
                 <li>
-                <h2>IT Consultancy</h2>
-                  <p>Astonished set expression solicitude way admiration</p>
+                  <h2>Affordable</h2>
+                  <p>We are definitely inexpensive, as seen by the amount of clients we worked with.</p>
                 </li>
               </ul>
             </ul>
@@ -193,19 +199,19 @@ const Homepage = () => {
           <ul>
             <li>
               <h2>Choose a Service</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p>Depending on the nature of your problem, we will consult with you over the phone to discuss it and try to resolve the issue.</p>
             </li>
             <li>
               <h2>Request a Meeting</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p>If the problem cannot be resolved over the phone, we will schedule an appointment with you and ask you to bring the device.</p>
             </li>
             <li>
               <h2>Receive Custom Plan</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p>You will be contacted by one of our technician about the pricing, once we have finished troubleshooting your equipment</p>
             </li>
             <li>
               <h2>Let’s Make it Happen</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p>You will be contacted by phone or email after the computer difficulties have been rectified to the best of our abilities.</p>
             </li>
           </ul>
         </div>

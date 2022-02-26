@@ -11,7 +11,7 @@ const Page = (props) => {
             </li>
             <li>
               <h3>Home <span className="primary-color-aero">></span> Pages <span className="primary-color-aero">></span> <span className="primary-color-text">{props.name}</span></h3>
-            </li>
+            </li> 
           </ul>
         </div>
       </div>
