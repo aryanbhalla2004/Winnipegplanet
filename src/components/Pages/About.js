@@ -11,7 +11,7 @@ const About = (props) => {
       <Helmet>
         <title>About Us | Winnipeg Planet Computer Repair</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-        <meta name="description" content="Here is a precise description of my awesome webpage."></meta>
+        <meta name="description" content="Winnipeg Planet Computer & Technology is a Winnipeg-based company that may assist you in repairing your computer. Our technicians have extensive knowledge and are certified by both Lenovo and Dell."></meta>
       </Helmet>
       <div className="about-home">
         <div className="content-sizing about-home-content">

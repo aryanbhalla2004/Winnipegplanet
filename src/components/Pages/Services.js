@@ -11,7 +11,7 @@ const Services = (props) => {
     <Helmet>
       <title>Our Services | Winnipeg Planet Computer Repair</title>
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-      <meta name="description" content="Here is a precise description of my awesome webpage."></meta>
+      <meta name="description" content="We Provide IT Management, Cloud & Networking, Backup & Recovery, Software Development, Website Development, Hardware & Software and many more services."></meta>
     </Helmet>
     <div className="steps-boxes-home">
         <div className="content-sizing steps-boxes-home-content services-page-width-fix">

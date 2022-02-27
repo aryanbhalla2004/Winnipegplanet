@@ -11,7 +11,7 @@ const Contact = (props) => {
       <Helmet>
         <title>Contact Us | Winnipeg Planet Computer Repair</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-        <meta name="description" content="Here is a precise description of my awesome webpage."></meta>
+        <meta name="description" content="Your IT systems are critical to the success of your company. That's why it's critical to pick an IT partner you can rely on. <b>Winnipeg Planet Computer & Technology</b> aspires to be your IT partner."></meta>
       </Helmet>
       <div className="contact-col">
         <div className="content-sizing contact-col-info">

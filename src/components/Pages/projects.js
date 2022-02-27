@@ -12,7 +12,7 @@ const Projects = (props) => {
       <Helmet>
         <title>Projects | Winnipeg Planet Computer Repair</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-        <meta name="description" content="Here is a precise description of my awesome webpage."></meta>
+        <meta name="description" content="Our firm has more than 20 years of experience in this field. We've worked with companies like Canada One Travel, IntelliNet, Progitech, and many more to address their difficulties."></meta>
       </Helmet>
       <div className="steps-boxes-home">
         <div className="content-sizing steps-boxes-home-content services-page-width-fix">

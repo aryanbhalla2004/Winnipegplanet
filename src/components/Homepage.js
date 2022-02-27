@@ -7,14 +7,14 @@ const Homepage = (props) => {
     <Helmet>
       <title>Home | Winnipeg Planet Computer Repair</title>
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-      <meta name="description" content="Here is a precise description of my awesome webpage."></meta>
+      <meta name="description" content="Winnipeg Planet Computer & Technology is a IT Company that has more then 20 years of experience in proving services to both small and commercial sized business."></meta>
     </Helmet>
       <div className="slider-below-header">
         <div className="content-sizing slider-below-header-content">
           <ul className="slider-info-left">
             <h3>Information Technology Systems</h3>
             <h1>Creating a better and reliable <span className="bold-primary-color">IT solutions</span></h1>
-            <p>Winnipeg Planet Computer & Technology is a IT Company that has more then 20 years of experience in proving services to both small and commercial sized business</p>
+            <p>Winnipeg Planet Computer & Technology is a IT Company that has more then 20 years of experience in proving services to both small and commercial sized business.</p>
             <Link to="/pages/contact-us" onClick={(e) => props.setLoading(true)}>Contact Us &nbsp; <i className="fas fa-arrow-circle-right"></i></Link>
           </ul>
           <ul className="slider-image">
