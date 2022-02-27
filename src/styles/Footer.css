@@ -123,6 +123,11 @@ footer{
   font-weight: 500;
 }
 
+.addressing-footer > ul > .email > p{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .addressing-footer > ul > li > p {
   color: #c2d1e2;
   padding-top: 10px;

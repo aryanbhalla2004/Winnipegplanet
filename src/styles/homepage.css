@@ -51,6 +51,7 @@
   cursor: pointer;
   transition: .3s;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .slider-info-left > a > i {
@@ -384,6 +385,18 @@
   max-width: 100%;
 }
 
+.services-page-width-fix > ul > li > a {
+  color: #086AD8;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: .3s;
+}
+
+.services-page-width-fix > ul > li > a:hover {
+  color: #034189
+}
+
+
 .steps-boxes-home-content > ul > li:hover {
   border: 1px solid #086AD8;
 }
@@ -397,6 +410,7 @@
 .steps-boxes-home-content > ul > li > p {
   color: #595959;
   line-height: 30px;
+  margin-bottom: 20px;
 }
 
 .company-logos { 
@@ -426,4 +440,12 @@
   gap: 40px;
   justify-content: space-between;
   margin-top: 40px;
+}
+
+.inside-box-desgine {
+  color: #cccccc;
+  position: absolute;
+  z-index: -10;
+  font-size: 6rem;
+  opacity: 0.3;
 }

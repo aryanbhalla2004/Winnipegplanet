@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import "../styles/homepage.css";
-const Homepage = () => {
+const Homepage = (props) => {
   return (
     <>
     <Helmet>
@@ -15,10 +15,10 @@ const Homepage = () => {
             <h3>Information Technology Systems</h3>
             <h1>Creating a better and reliable <span className="bold-primary-color">IT solutions</span></h1>
             <p>Winnipeg Planet Computer & Technology is a IT Company that has more then 20 years of experience in proving services to both small and commercial sized business</p>
-            <Link to="">Contact Us &nbsp; <i className="fas fa-arrow-circle-right"></i></Link>
+            <Link to="/pages/contact-us" onClick={(e) => props.setLoading(true)}>Contact Us &nbsp; <i className="fas fa-arrow-circle-right"></i></Link>
           </ul>
           <ul className="slider-image">
-            <img src="/3.png" width="500" alt="data"/>
+            <img src="/3.png" width="500" alt="Slider containing a girl with an ipad"/>
           </ul>
         </div>
       </div>
@@ -26,9 +26,9 @@ const Homepage = () => {
         <div className="content-sizing about-home-content">
           <ul className="images-home-about-section">
             <div className="image-one">
-              <img src="/about1.jpg" width="430" alt="about 1"/>
+              <img src="/about1.jpg" width="430" alt="Team meeting"/>
               <div className="absolute-box-image-about">
-                <img src="/about2.jpg" width="430" alt="about 2"/>
+                <img src="/about2.jpg" width="430" alt="Programming on the laptop"/>
                 <div className="experience-about-home-box">
                   <h1>20 Years of Experience</h1>
                 </div> 
@@ -150,7 +150,7 @@ const Homepage = () => {
                 </div>
               </li>
             </ul>
-            <Link to="/pages/about-us" className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
+            <Link onClick={(e) => props.setLoading(true)} to="/pages/about-us" className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
           </ul>
         </div>
       </div>
@@ -198,18 +198,22 @@ const Homepage = () => {
           <div className="line"></div>
           <ul>
             <li>
+              <h1 className="inside-box-desgine">01</h1>
               <h2>Choose a Service</h2>
               <p>Depending on the nature of your problem, we will consult with you over the phone to discuss it and try to resolve the issue.</p>
             </li>
             <li>
+              <h1 className="inside-box-desgine">02</h1>
               <h2>Request a Meeting</h2>
               <p>If the problem cannot be resolved over the phone, we will schedule an appointment with you and ask you to bring the device.</p>
             </li>
             <li>
+              <h1 className="inside-box-desgine">03</h1>
               <h2>Receive Custom Plan</h2>
               <p>You will be contacted by one of our technician about the pricing, once we have finished troubleshooting your equipment</p>
             </li>
             <li>
+              <h1 className="inside-box-desgine">04</h1>
               <h2>Let’s Make it Happen</h2>
               <p>You will be contacted by phone or email after the computer difficulties have been rectified to the best of our abilities.</p>
             </li>
@@ -220,11 +224,11 @@ const Homepage = () => {
         <h1>Our Clients</h1>
         <div className="line"></div>
         <ul>
-          <img src="/logos/progetec.png" alt="" srcset="" width="220"/>
-          <img src="/logos/canadaone.png" alt="" srcset="" width="220"/>
-          <img src="/logos/hydro.png" alt="" srcset=""width="220" />
-          <img src="/logos/intellinet-logo.png" alt="" srcset=""width="220" />
-          <img src="/logos/steinbacht.png" alt="" srcset=""width="220" />
+          <img src="/logos/progetec.png" alt="Progetec logo" width="220"/>
+          <img src="/logos/canadaone.png" alt="Canada One Travel logo" width="220"/>
+          <img src="/logos/hydro.png" alt="Manitoba Hydro Logo" width="220" />
+          <img src="/logos/intellinet-logo.png" alt="Intellinet logo" width="220" />
+          <img src="/logos/steinbacht.png" alt="Steinbach Trailer Logo" width="220" />
         </ul>
       </div>
     </>
