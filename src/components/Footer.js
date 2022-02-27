@@ -17,7 +17,7 @@ const Footer = () => {
                 </form>
               </li>
               <li className="footer-links">
-                <h2>Company</h2>
+                <h2>Quick Link</h2>
                 <ul>
                   <li><Link to="">About Us</Link></li>
                   <li><Link to="">Our Projects</Link></li>
@@ -58,11 +58,9 @@ const Footer = () => {
           <ul>
             <li>Copyright © 2015. All rights reserved</li>
             <li className="footer-link-buttons">
-              <Link to="">Terms</Link>
+              <Link to="/pages/term-and-condition">Terms</Link>
               <div className="line"></div>
               <Link to="">Privacy</Link>
-              <div className="line"></div>
-              <Link to="">Support</Link>
             </li>
           </ul>
         </div>

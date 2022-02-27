@@ -150,7 +150,7 @@ const Homepage = () => {
                 </div>
               </li>
             </ul>
-            <Link to="" className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
+            <Link to="/pages/about-us" className="read-more-button-home-page">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
           </ul>
         </div>
       </div>
@@ -160,7 +160,7 @@ const Homepage = () => {
             <ul className="text-holder-offset-server">
               <h3>WHY CHOOSE US</h3>
               <h1>Custom IT Solutions for Your Business</h1>
-              <p>Carried nothing on am warrant towards. Polite in of in oh needed itself silent course. Assistance travelling so especially do prosperous appearance mr no celebrated. Wanted easily in my called formed suffer. Songs hoped sense as taken ye mirth at. Believe fat how six drawing pursuit minutes far. Same do seen head am part it dear open to Whatever.</p>
+              <p>Your IT systems are critical to the success of your company. That's why it's critical to pick an IT partner you can rely on. <b>Winnipeg Planet Computer & Technology</b> aspires to be your IT partner.</p>
               <div>
                 <Link to=""><i className="fas fa-arrow-right"></i></Link>
                 <p>Read More</p>

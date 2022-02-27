@@ -47,3 +47,17 @@
   color: #086AD8;
   font-weight: 500;
 }
+
+.Terms-condition-form {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #e7e7e7;
+  padding: 50px 30px;
+  line-height: 30px;
+}
+
+.Terms-condition-form > ul {
+  margin-left: 30px;
+}

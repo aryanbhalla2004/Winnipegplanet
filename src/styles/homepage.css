@@ -190,6 +190,7 @@
   transition: .3s;
   color: #086AD8;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .read-more-button-home-page:hover{
@@ -377,6 +378,10 @@
   transition: .3s;
   overflow: hidden;
   cursor: pointer;
+}
+
+.services-page-width-fix > ul > li {
+  max-width: 100%;
 }
 
 .steps-boxes-home-content > ul > li:hover {

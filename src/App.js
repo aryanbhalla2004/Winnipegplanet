@@ -8,6 +8,7 @@ import About from "./components/Pages/About";
 import Services from "./components/Pages/Services";
 import Contact from "./components/Pages/Contact";
 import Hireus from "./components/Pages/Hireus";
+import Terms from "./components/Terms";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -42,6 +43,9 @@ const App = () => {
               </Route>
               <Route exact path="/pages/contact-us">
                 <Contact pageName={setPage}/>
+              </Route>
+              <Route exact path="/pages/term-and-condition">
+                <Terms pageName={setPage}/>
               </Route>
             </Switch>
           </Route>

@@ -145,6 +145,28 @@ const About = (props) => {
       </ul>
     </div>
   </div>
+  <div className="steps-boxes-home">
+        <div className="content-sizing steps-boxes-home-content services-page-width-fix">
+          <h3>Certification / Licences</h3>
+          <h1>Proof of Education</h1>
+          <div className="line"></div>
+          <ul>
+            <li>
+              <h2>Dell Certified Technicians</h2>
+              <p>When it comes to handling your equipment with care, our technicians are Dell certified professionals with plenty of expertise.</p>
+            </li>
+           
+            <li>
+              <h2>Better Business Bureau (BBB)</h2>
+              <p>Our company is accredited by the Better Business Bureau (BBB), indicating that we are dependable and trustworthy.</p>
+            </li>
+            <li>
+              <h2>Lenovo Certified Technicians</h2>
+              <p>When it comes to handling your equipment with care, our technicians are Lenovo certified professionals with plenty of expertise.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
   </>
   )
 }
