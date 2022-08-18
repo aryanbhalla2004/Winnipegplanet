@@ -220,7 +220,7 @@ const Homepage = (props) => {
           </ul>
         </div>
       </div>
-      <div className="company-logos">
+      {/* <div className="company-logos">
         <h1>Our Clients</h1>
         <div className="line"></div>
         <ul>
@@ -230,7 +230,7 @@ const Homepage = (props) => {
           <img src="/logos/intellinet-logo.png" alt="Intellinet logo" width="220" />
           <img src="/logos/steinbacht.png" alt="Steinbach Trailer Logo" width="220" />
         </ul>
-      </div>
+      </div> */}
     </>
   )
 }

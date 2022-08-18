@@ -20,29 +20,29 @@ const Services = (props) => {
           <ul>
             <li>
               <h2>IT Management</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p></p>
               <Link to="/pages/services/01">View More <i className="fas fa-arrow-right"></i></Link>
             </li>
             <li>
               <h2>Cloud & Networking</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p>We have Cisco certified technicians that can design and protect networks for commercial use.</p>
               <Link to="/pages/services/02">View More <i className="fas fa-arrow-right"></i></Link>
             </li>
             <li>
               <h2>Backup & Recovery</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p></p>
               <Link to="/pages/services/03">View More <i className="fas fa-arrow-right"></i></Link>
             </li> 
           </ul>
           <ul>
           <li>
               <h2>Software Development</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p>Our company has experience in building both web and desktop responsive software.</p>
               <Link to="/pages/services/04">View More <i className="fas fa-arrow-right"></i></Link>
             </li>
             <li>
               <h2>Website Development</h2>
-              <p>Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better.</p>
+              <p>Our website are know to be </p>
               <Link to="/pages/services/05">View More <i className="fas fa-arrow-right"></i></Link>
             </li>
             <li>
@@ -58,3 +58,4 @@ const Services = (props) => {
 }
 
 export default Services;
+asdjhasd
