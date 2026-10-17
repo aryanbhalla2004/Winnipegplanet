@@ -7,14 +7,14 @@ const Homepage = (props) => {
     <Helmet>
       <title>Home | Winnipeg Planet Computer Repair</title>
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-      <meta name="description" content="Winnipeg Planet Computer & Technology is a IT Company that has more then 20 years of experience in proving services to both small and commercial sized business."></meta>
+      <meta name="description" content="Winnipeg Planet Computer & Technology is an IT company with more than 20 years of experience providing services to both small and commercial-sized businesses."></meta>
     </Helmet>
       <div className="slider-below-header">
         <div className="content-sizing slider-below-header-content">
           <ul className="slider-info-left">
             <h3>Information Technology Systems</h3>
-            <h1>Creating a better and reliable <span className="bold-primary-color">IT solutions</span></h1>
-            <p>Winnipeg Planet Computer & Technology is a IT Company that has more then 20 years of experience in proving services to both small and commercial sized business.</p>
+            <h1>Creating better, more reliable <span className="bold-primary-color">IT solutions</span></h1>
+            <p>Winnipeg Planet Computer & Technology is an IT company with more than 20 years of experience providing services to both small and commercial-sized businesses.</p>
             <Link to="/pages/contact-us" onClick={(e) => props.setLoading(true)}>Contact Us &nbsp; <i className="fas fa-arrow-circle-right"></i></Link>
           </ul>
           <ul className="slider-image">
@@ -36,8 +36,8 @@ const Homepage = (props) => {
             </div>
           </ul>
           <ul className="text-home-about-section">
-            <h1>We Help IT Companies & Individual Find Solutions</h1>
-            <p>We won't stop until all of your IT concerns are resolved. We make your life easy by providing you with rapid service from qualified expert techs through phone or the internet.</p>
+            <h1>We Help IT Companies & Individuals Find Solutions</h1>
+            <p>We won't stop until all of your IT concerns are resolved. We make your life easier by providing rapid service from qualified, expert technicians by phone or online.</p>
             <ul>
               <li>
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="75.000000pt" height="70.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
@@ -146,7 +146,7 @@ const Homepage = (props) => {
                 </svg>
                 <div>
                   <h3>Dell Certified Technicians</h3>
-                  <p>When it comes to handling your equipment with care, our technicians are Dell certified professionals with plenty of expertise.</p>
+                  <p>Our technicians are Dell-certified professionals with plenty of expertise, so your equipment is always handled with care.</p>
                 </div>
               </li>
             </ul>
@@ -169,22 +169,22 @@ const Homepage = (props) => {
             <ul className="service-holder-home-page">
               <ul className="non-offset-service-box">
                 <li>
-                  <h2>Quick response</h2>
-                  <p>Our typical turnaround time is one to two days, which is far faster than our rivals.</p>
+                  <h2>Quick Response</h2>
+                  <p>Our typical turnaround time is one to two days, which is far faster than most of our competitors.</p>
                 </li>
                 <li>
                 <h2>Experienced</h2>
-                  <p>Our technicians are well experienced and certified.</p>
+                  <p>Our technicians are highly experienced and certified.</p>
                 </li>
               </ul>
               <ul className="offset-service-box">
                 <li>
                   <h2>100% Satisfaction Guarantee</h2>
-                  <p>We will go above and above to ensure your satisfaction.</p>
+                  <p>We will go above and beyond to ensure your satisfaction.</p>
                 </li>
                 <li>
                   <h2>Affordable</h2>
-                  <p>We are definitely inexpensive, as seen by the amount of clients we worked with.</p>
+                  <p>Our prices are affordable, as shown by the number of clients we have worked with.</p>
                 </li>
               </ul>
             </ul>
@@ -194,13 +194,13 @@ const Homepage = (props) => {
       <div className="steps-boxes-home">
         <div className="content-sizing steps-boxes-home-content">
           <h3>PROCESS</h3>
-          <h1>How we works</h1>
+          <h1>How We Work</h1>
           <div className="line"></div>
           <ul>
             <li>
               <h1 className="inside-box-desgine">01</h1>
               <h2>Choose a Service</h2>
-              <p>Depending on the nature of your problem, we will consult with you over the phone to discuss it and try to resolve the issue.</p>
+              <p>Depending on the nature of your problem, we will consult with you over the phone and try to resolve the issue.</p>
             </li>
             <li>
               <h1 className="inside-box-desgine">02</h1>
@@ -210,12 +210,12 @@ const Homepage = (props) => {
             <li>
               <h1 className="inside-box-desgine">03</h1>
               <h2>Receive Custom Plan</h2>
-              <p>You will be contacted by one of our technician about the pricing, once we have finished troubleshooting your equipment</p>
+              <p>One of our technicians will contact you about pricing once we have finished troubleshooting your equipment.</p>
             </li>
             <li>
               <h1 className="inside-box-desgine">04</h1>
-              <h2>Let’s Make it Happen</h2>
-              <p>You will be contacted by phone or email after the computer difficulties have been rectified to the best of our abilities.</p>
+              <h2>Let’s Make It Happen</h2>
+              <p>We will contact you by phone or email once your computer issues have been resolved to the best of our abilities.</p>
             </li>
           </ul>
         </div>

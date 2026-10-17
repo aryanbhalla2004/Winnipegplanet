@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 
 const Projects = (props) => {
@@ -12,7 +11,7 @@ const Projects = (props) => {
       <Helmet>
         <title>Projects | Winnipeg Planet Computer Repair</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-        <meta name="description" content="Our firm has more than 20 years of experience in this field. We've worked with companies like Canada One Travel, IntelliNet, Progitech, and many more to address their difficulties."></meta>
+        <meta name="description" content="Our firm has more than 20 years of experience in this field. We've worked with companies like Canada One Travel, IntelliNet, Progitech, and many more to solve their IT challenges."></meta>
       </Helmet>
       <div className="steps-boxes-home">
         <div className="content-sizing steps-boxes-home-content services-page-width-fix">
@@ -22,18 +21,18 @@ const Projects = (props) => {
           <ul>
             <li>
               <h2>M.P.A.B Transport Company</h2>
-              <p>This website is base on a transport trucking company</p>
-              <Link to="http://mpabtransport.ca/">View Website</Link>
+              <p>A website for a transport and trucking company.</p>
+              <a href="http://mpabtransport.ca/" target="_blank" rel="noopener noreferrer">View Website</a>
             </li>
             <li>
               <h2>Payless Trucking Repair & Parts</h2>
-              <p>This website is a trucking part search company.</p>
-              <Link to="http://mpabtransport.ca/">View Website</Link>
+              <p>A parts search website for a truck repair and parts company.</p>
+              <a href="http://mpabtransport.ca/" target="_blank" rel="noopener noreferrer">View Website</a>
             </li>
             <li>
               <h2>Calculus Financial</h2>
-              <p>This website is financial static website just for information. </p>
-              <Link to="http://mpabtransport.ca/">View Website</Link>
+              <p>A static, informational website for a financial company.</p>
+              <a href="http://mpabtransport.ca/" target="_blank" rel="noopener noreferrer">View Website</a>
             </li>
           </ul>
         </div>

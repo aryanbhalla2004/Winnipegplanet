@@ -11,13 +11,13 @@ const Contact = (props) => {
       <Helmet>
         <title>Contact Us | Winnipeg Planet Computer Repair</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-        <meta name="description" content="Your IT systems are critical to the success of your company. That's why it's critical to pick an IT partner you can rely on. <b>Winnipeg Planet Computer & Technology</b> aspires to be your IT partner."></meta>
+        <meta name="description" content="Your IT systems are critical to the success of your company. That's why it's important to pick an IT partner you can rely on. Winnipeg Planet Computer & Technology aspires to be your IT partner."></meta>
       </Helmet>
       <div className="contact-col">
         <div className="content-sizing contact-col-info">
           <div className="left-col">
             <span>LET'S TALK</span>
-            <h2>Speak With Expert Engineers.</h2>
+            <h2>Speak With Our Expert Engineers</h2>
             <div className="contact-info-form-col">
               <div className="contact-icon">
                 <i className="bi bi-house-door-fill"></i>
@@ -33,7 +33,7 @@ const Contact = (props) => {
               </div>
               <div>
                 <h3>Address:</h3>
-                <p>1129 Waller Ave, Winnipeg MB R3T 1P4, Canada</p>
+                <p>1129 Waller Ave, Winnipeg, MB R3T 1P4, Canada</p>
               </div>
             </div>
             <div className="contact-info-form-col">
@@ -42,22 +42,22 @@ const Contact = (props) => {
               </div>
               <div>
                 <h3>Phone:</h3>
-                <p>+1 (204)-890-7313</p>
+                <p>+1 (204) 890-7313</p>
               </div>
             </div>
           </div>
           <form className="form-contact">
             <span>GET IN TOUCH</span>
-            <h2>Fill The Form Below</h2>
+            <h2>Fill Out the Form Below</h2>
             <div className="col-2-filed">
-              <input placeholder="Name" value=""/>
-              <input placeholder="Email" value=""/>
+              <input type="text" placeholder="Name"/>
+              <input type="email" placeholder="Email"/>
             </div>
             <div className="col-2-filed">
-              <input placeholder="Phone Number" value=""/>
-              <input placeholder="Subject" value=""/>
+              <input type="tel" placeholder="Phone Number"/>
+              <input type="text" placeholder="Subject"/>
             </div>
-            <textarea placeholder="Your Message Here" value=""></textarea>
+            <textarea placeholder="Your Message" rows="6"></textarea>
             <button>Send Inquiry</button>
           </form>
         </div>
@@ -67,7 +67,7 @@ const Contact = (props) => {
               width="100%"
               height="450"
               frameBorder="0"
-              title="map for the contact"
+              title="Map of our office location"
               allowFullScreen=""
               aria-hidden="false"
               tabIndex="0"

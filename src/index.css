@@ -10,11 +10,17 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: clip;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .content-sizing {
   max-width: 1240px;
-  width: 100%;
+  width: calc(100% - 40px);
 }
 
 .line {

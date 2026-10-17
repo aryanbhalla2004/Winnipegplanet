@@ -11,7 +11,7 @@ const About = (props) => {
       <Helmet>
         <title>About Us | Winnipeg Planet Computer Repair</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-        <meta name="description" content="Winnipeg Planet Computer & Technology is a Winnipeg-based company that may assist you in repairing your computer. Our technicians have extensive knowledge and are certified by both Lenovo and Dell."></meta>
+        <meta name="description" content="Winnipeg Planet Computer & Technology is a Winnipeg-based company that can help you repair your computer. Our technicians have extensive knowledge and are certified by both Lenovo and Dell."></meta>
       </Helmet>
       <div className="about-home">
         <div className="content-sizing about-home-content">
@@ -28,23 +28,23 @@ const About = (props) => {
           </ul>
           <ul className="text-home-about-section">
             <h1>What is Winnipeg Planet?</h1>
-            <p>Winnipeg Planet Computer & Technology is a Winnipeg-based company that may assist you in repairing your computer. Our technicians have extensive knowledge and are certified by both Lenovo and Dell.</p>
+            <p>Winnipeg Planet Computer & Technology is a Winnipeg-based company that can help you repair your computer. Our technicians have extensive knowledge and are certified by both Lenovo and Dell.</p>
             <br/>
-            <p>Our firm has more than 20 years of experience in this field. We've worked with companies like Canada One Travel, IntelliNet, Progitech, and many more to address their difficulties.</p>
+            <p>Our firm has more than 20 years of experience in this field. We've worked with companies like Canada One Travel, IntelliNet, Progitech, and many more to solve their IT challenges.</p>
             <br/>
-            <Link to="" className="read-more-button-home-page">Get In Touch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
+            <Link to="/pages/contact-us" className="read-more-button-home-page">Get In Touch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
           </ul>
         </div>
       </div>
       <div className="steps-boxes-home">
         <div className="content-sizing steps-boxes-home-content services-page-width-fix">
-          <h3>Certification / Licences</h3>
-          <h1>Proof of Education</h1>
+          <h3>Certifications & Licences</h3>
+          <h1>Our Credentials</h1>
           <div className="line"></div>
           <ul>
             <li>
               <h2>Dell Certified Technicians</h2>
-              <p>When it comes to handling your equipment with care, our technicians are Dell certified professionals with plenty of expertise.</p>
+              <p>Our technicians are Dell-certified professionals with plenty of expertise, so your equipment is always handled with care.</p>
             </li>
             
             <li>
@@ -53,7 +53,7 @@ const About = (props) => {
             </li>
             <li>
               <h2>Lenovo Certified Technicians</h2>
-              <p>When it comes to handling your equipment with care, our technicians are Lenovo certified professionals with plenty of expertise.</p>
+              <p>Our technicians are Lenovo-certified professionals with plenty of expertise, so your equipment is always handled with care.</p>
             </li>
           </ul>
         </div>

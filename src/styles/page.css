@@ -184,3 +184,81 @@
 .form-contact > button:hover {
   background-color: #034189;
 }
+/* responsive START */
+
+@media (max-width: 1024px) {
+  .pages-title-path-holder {
+    background-attachment: scroll !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-col-info {
+    flex-direction: column;
+    padding: 60px 0;
+  }
+
+  .left-col {
+    max-width: 100%;
+  }
+
+  .form-contact {
+    padding: 50px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .pages-title-path-holder > div {
+    padding: 50px 0;
+  }
+
+  .pages-title-path-holder-content > ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .pages-title-path-holder-content > ul > li > h3 {
+    font-size: 15px;
+    padding: 8px 16px;
+    flex-wrap: wrap;
+  }
+
+  .primary-color-aero {
+    font-size: 20px;
+    padding: 0 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .left-col {
+    padding: 40px 20px;
+  }
+
+  .left-col > h2 {
+    font-size: 1.6rem;
+    margin-right: 0;
+  }
+
+  .form-contact > h2 {
+    font-size: 1.8rem;
+  }
+
+  .col-2-filed {
+    flex-direction: column;
+  }
+
+  .col-2-filed > input {
+    width: 100%;
+  }
+
+  .Terms-condition-form {
+    padding: 30px 20px;
+  }
+
+  .Terms-condition-form > ul {
+    margin-left: 20px;
+  }
+}
+
+/* responsive END */

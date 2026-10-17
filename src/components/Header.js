@@ -1,6 +1,14 @@
+import { useState } from "react";
 import { Link } from "react-router-dom"
 import "../styles/Header.css";
 const Header = (props) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const navigate = () => {
+    setMenuOpen(false);
+    props.setLoading(true);
+  }
+
   return (
     <>
       <div className="top-menu">
@@ -27,21 +35,24 @@ const Header = (props) => {
           <ul className="logo-header">
             <img src="/logo.jpeg" width="125" alt="Logo"/>
           </ul>
-          <ul className="menu-header">
-            <li><Link to="/" onClick={(e) => props.setLoading(true)}>HOME</Link></li>
-            <li><Link to="/pages/about-us" onClick={(e) => props.setLoading(true)}>ABOUT US</Link></li>
-            <li><Link to="/pages/projects" onClick={(e) => props.setLoading(true)}>PROJECTS</Link></li>
-            <li><Link to="/pages/services" onClick={(e) => props.setLoading(true)}>SERVICES</Link></li>
-            <li><Link to="/pages/contact-us" onClick={(e) => props.setLoading(true)}>CONTACT US</Link></li>
+          <ul className={menuOpen ? "menu-header open" : "menu-header"}>
+            <li><Link to="/" onClick={navigate}>HOME</Link></li>
+            <li><Link to="/pages/about-us" onClick={navigate}>ABOUT US</Link></li>
+            <li><Link to="/pages/projects" onClick={navigate}>PROJECTS</Link></li>
+            <li><Link to="/pages/services" onClick={navigate}>SERVICES</Link></li>
+            <li><Link to="/pages/contact-us" onClick={navigate}>CONTACT US</Link></li>
           </ul>
           <ul className="phone-number-header">
             <i className="fas fa-phone-alt"></i>
             <div className="line-number-header"></div>
             <li>
               <p>Call us today!</p>
-              <h4>+1 (204)-890-7313</h4>
+              <h4>+1 (204) 890-7313</h4>
             </li>
           </ul>
+          <button className="menu-toggle" aria-label="Toggle navigation menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
+            <i className={menuOpen ? "fas fa-times" : "fas fa-bars"}></i>
+          </button>
         </div>
       </header>
     </>

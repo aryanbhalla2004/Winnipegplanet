@@ -17,7 +17,7 @@ const Footer = (props) => {
                 </form>
               </li>
               <li className="footer-links">
-                <h2>Quick Link</h2>
+                <h2>Quick Links</h2>
                 <ul>
                   <li><Link to="/pages/about-us" onClick={(e) => props.setLoading(true)}>About Us</Link></li>
                   <li><Link to="/pages/projects" onClick={(e) => props.setLoading(true)}>Our Projects</Link></li>
@@ -38,11 +38,11 @@ const Footer = (props) => {
                 <ul>
                   <li>
                     <h4>ADDRESS:</h4>
-                    <p>1129 Waller Ave, Winnipeg MB R3T 1P4, Canada</p>
+                    <p>1129 Waller Ave, Winnipeg, MB R3T 1P4, Canada</p>
                   </li>
                   <li className="email">
                     <h4>EMAIL:</h4>
-                    <p onClick={() => window.location = 'mailto:yourmail@gmail.com'}>info@winnipegplanet.com</p>
+                    <p onClick={() => window.location = 'mailto:info@winnipegplanet.com'}>info@winnipegplanet.com</p>
                   </li>
                 </ul>
               </li>
@@ -53,7 +53,7 @@ const Footer = (props) => {
       <div className="copyright-container">
         <div className="content-sizing copyright-container-content">
           <ul>
-            <li>Copyright © 2015. All rights reserved</li>
+            <li>Copyright © 2015. All rights reserved.</li>
             <li className="footer-link-buttons">
               <Link to="/pages/term-and-condition">Terms</Link>
               <div className="line"></div>
